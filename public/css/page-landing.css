@@ -1,0 +1,130 @@
+#page-landing{
+    margin-top: 5rem;
+}
+
+#container header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#container header > img{
+    width: 14.5rem;
+    height: 4.6rem;
+    padding-bottom: .9rem;
+
+    justify-self: flex-start;
+}
+
+#container header .busca{
+    position: relative;
+
+    justify-self: flex-start;
+}
+
+#container header .busca input{    
+    padding: 1rem 20rem 1rem 4rem;
+
+    border: 1px solid var(--color-border);
+    border-radius: .4rem ;
+}
+
+#container header .busca input::placeholder{
+    color: var(--color-text-light);
+    font-size: 1.4rem;
+}
+
+/* Lupa do buscador */
+#container header .busca img{ 
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+/* Menu-principal */
+
+
+.menu-principal{
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 2rem;
+    padding: 1rem;
+    
+    border-bottom: 1px solid var(--color-border);
+}
+
+.menu-principal li {
+    list-style: none;
+}
+
+.menu-principal li a{
+    text-decoration: none;
+    font-weight: 600;
+    
+    color: var(--color-text-menu);
+}
+
+/* Seção principal noticias */
+.secao-principal-noticias{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 2rem;
+    justify-content: center;
+   
+    margin-top: 2rem;
+}
+
+.secao-principal-noticias .mini-image{
+    display: flex;
+}
+
+.secao-principal-noticias .image-1{
+    grid-row: 1 / 4;
+}
+
+.secao-principal-noticias .image-2{
+    grid-row: 1;
+    grid-column: 2;
+}
+.secao-principal-noticias .image-3{
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.secao-principal-noticias img{
+    border-radius: .8rem;
+}
+
+.secao-principal-noticias p{
+    font-size: 1.8rem;
+    font-weight: 300;
+
+    margin: .6rem 0 .6rem 0;
+
+    color: var(--color-primary);
+}
+
+.secao-principal-noticias .image-1 h1{
+    font-size: 3.2rem;
+    line-height: 1.2;
+}
+
+
+
+.secao-principal-noticias .mini-image img{
+    border-radius: .8rem;
+    margin-right: 2rem;
+}
+
+.secao-principal-noticias .mini-image h1{
+    font-size: 2rem;
+    width: 22rem;
+}
+
+.secao-principal-noticias .mini-image p{
+    font-size: 2rem;
+}
+

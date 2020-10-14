@@ -1,0 +1,28 @@
+:root{
+
+    --color-primary: #1087FF;
+    --color-text-menu: #3E4851;
+    --color-border: #E2EAF0;
+    --color-text-light: #89A5C4;
+    --color-text-dark: #030303;
+
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    font-size: 1.6rem;
+    width: 70%;
+    margin: auto;
+
+    font-family: 'Source Sans Pro';
+}
+
+
+
