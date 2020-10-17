@@ -1,3 +1,3 @@
-Q# Site Tecmundo (clone)
+# Site Tecmundo (clone)
 
 
