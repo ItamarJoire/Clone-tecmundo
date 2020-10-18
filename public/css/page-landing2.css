@@ -1,0 +1,260 @@
+#page-landing{
+    margin-top: 5rem;
+    display: flex;
+}
+
+
+#container header{
+    /* display: flex;
+    justify-content: space-around;  */
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+ 
+
+/* Menu principal */
+main .menu-principal{
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 2rem;
+    padding: 1rem;
+        
+    border-bottom: 1px solid var(--color-border);
+}
+
+main .menu-principal li{
+    list-style: none;  
+}
+
+main .menu-principal li a{
+    text-decoration: none;
+    font-weight: 600;
+
+    color: var(--color-text-menu);
+}
+
+
+/* Seção notícias */ 
+
+.secao-principal-noticias{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.6rem;
+
+    margin-top: 2rem;
+    justify-content: center;
+    padding-bottom: 6rem;
+
+    border-bottom: 1px solid var(--color-border);
+
+   
+}
+
+.secao-principal-noticias .image-1{
+    grid-row: 1 / 4;
+    grid-column: 1;
+    align-self: center;
+    justify-self: flex-end;
+} 
+
+.secao-principal-noticias .mini-image{
+    grid-column: 2 / 3;
+
+    display: flex;
+    justify-self: center;
+}
+
+.secao-principal-noticias p{
+    font-size: 1.8rem;
+    font-weight: 300;
+
+    margin: .6rem 0 .6rem 0;
+
+    color: var(--color-primary);
+}
+.secao-principal-noticias .image-1 h1{
+    font-size: 3.2rem;
+    line-height: 1.2;
+
+ 
+}
+
+
+
+.secao-principal-noticias .image-1 h1 a{
+    text-decoration: none;
+    font-weight: 600;
+
+    color: var(--color-text-dark);
+
+    transition: 200ms;
+}
+
+.secao-principal-noticias .image-1 h1 a:hover{
+    color: var(--color-primary);
+}   
+
+.secao-principal-noticias .mini-image img{
+    border-radius: .8rem;
+    margin-right: 2rem;
+}
+
+.secao-principal-noticias .mini-image h1{
+    font-size: 2rem;
+    width: 22rem;
+}
+
+.secao-principal-noticias .mini-image h1 a{
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--color-text-dark);
+    
+    transition: 200ms;
+}
+
+.secao-principal-noticias .mini-image h1 a:hover{
+    color: var(--color-primary);
+}
+
+.secao-principal-noticias .mini-image p{
+    font-size: 2rem;
+}
+
+#container header > img{
+    width: 14.5rem;
+    height: 4.6rem;
+    padding-bottom: .9rem;
+}
+
+#container header .busca{
+    position: relative;
+
+    justify-self: flex-start;
+}
+
+#container header .busca input{    
+    padding: 1rem 20rem 1rem 4rem;
+
+    border: 1px solid var(--color-border);
+    border-radius: .4rem ;
+}
+
+#container header .busca input::placeholder{
+    color: var(--color-text-light);
+    font-size: 1.4rem;
+}
+
+/* Lupa do buscador */
+#container header .busca img{ 
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+
+/* Mais lidas */
+.mais-lidas {
+    margin-top: 2rem;
+}
+.mais-lidas .menu-2{
+   display: flex;
+    justify-content: space-between;
+}
+
+.mais-lidas .menu-2 h1{
+    font-size: 2.4rem;
+}
+
+.mais-lidas .menu-2 ul{
+    display: flex;
+    margin-right: 10rem;
+}
+
+.mais-lidas .menu-2 ul li {
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-decoration: none;
+    list-style: none;
+
+    padding: 1rem;
+    margin-right: 2rem;
+
+    color: var(--color-text-light);
+    background: #f1f5f8;
+}
+
+/* imagens de mais lidas */
+
+.mais-lidas{
+    display: grid;
+    grid-template-columns: 2;
+    grid-gap: 2rem;
+
+    padding: 4rem;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.mais-lidas .image-1,
+.mais-lidas .image-3,
+.mais-lidas .image-5{
+    grid-column: 1;
+    justify-content: center;
+}
+.mais-lidas .image-2,
+.mais-lidas .image-4,
+.mais-lidas .image-6{
+    grid-column: 2;
+    justify-content: center;
+}
+
+.mais-lidas .images img{
+    border-radius: 1rem;
+    width: 22.4rem;
+    height: 16.8rem;
+}
+
+.mais-lidas .images{
+    display: flex;
+}
+.mais-lidas .images .info {
+    margin-left: 1.6rem;
+}
+
+.mais-lidas .images .info h1{
+    font-size: 2rem;
+    font-weight: 600;
+
+    width: 20rem;
+    line-height: 2.6rem;
+}
+
+
+
+.mais-lidas .images .info h1 a{
+    text-decoration: none;
+    color: var(--color-text-dark);
+
+    transition: 200ms;
+
+}
+
+.mais-lidas .images .info h1 a:hover{
+    color: var(--color-primary);
+}
+
+.mais-lidas .images .info p{
+    text-decoration: none;
+    font-size: 1.8rem;
+    margin-top: 1.6rem;
+
+    color: var(--color-text-light);
+
+}
+
+
+
