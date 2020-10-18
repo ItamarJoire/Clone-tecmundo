@@ -9,13 +9,7 @@
 
 
 &nbsp;
-  
-## Layout :bookmark:
-  <img src="https://github.com/ItamarJoire/clone-tecmundo/blob/main/public/imagens/tela.png" align="center" width="500" height="360">
-  
-  
-  &nbsp;
-  
+    
   
   
   
